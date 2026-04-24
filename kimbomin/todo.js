@@ -36,6 +36,7 @@ function removeTodo(index){
     renderTodos(); // 화면 갱신
 }
 
+/* js 조건 1번 만족 */
 input.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         addTodo();

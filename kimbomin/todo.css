@@ -1,3 +1,4 @@
+/* css 조건 1번 만족 */
 .input-list {
     flex-direction: column;
     display: flex;
@@ -6,27 +7,30 @@
     height: 100vh;
 }
 
+/* css 조건 2번 만족 */
 .input-button {
     background-color: white;
     border-radius: 12px;
     padding: 40px;
 }
 
-
+/* css 조건 3번 만족 */
 .input-button button{
     background: greenyellow;
     border-radius: 5px;
 }
 
+/* css 조건 2번 만족 */
 body {
     background-color: rgb(255, 190, 246);
 }
 
+/* css 조건 4번 만족 */
 ul li{
     border-bottom: 1px solid black;
 }
 
-/* 화면 작을 때 */
+/* css 조건 5번 만족 */
 @media (max-width: 480px){
     h2 {
         font-size : 20px;
@@ -45,7 +49,7 @@ ul li{
     }
 }
 
-/* 화면 클 때 */
+/* css 조건 5번 만족 */
 @media (min-width: 767px){
     h2{
         font-size:30px;
