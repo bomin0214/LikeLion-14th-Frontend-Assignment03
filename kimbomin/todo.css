@@ -25,3 +25,37 @@ body {
 ul li{
     border-bottom: 1px solid black;
 }
+
+/* 화면 클 때 */
+@media (min-width: 480px){
+    h2 {
+        font-size : 20px;
+    }
+
+    input{
+        font-size: 15px;
+    }
+
+    .input-button{
+        padding: 25px;
+    }
+
+    ul li {
+        font-size: 15px;
+    }
+}
+
+/* 화면 작을 때 */
+@media (max-width: 767px){
+    h2{
+        font-size:30px;
+    }
+
+    input{
+        font-size:20px;
+    }
+
+    .input-button{
+        padding:50px;
+    }
+}
