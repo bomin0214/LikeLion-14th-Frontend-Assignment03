@@ -21,3 +21,7 @@
 body {
     background-color: rgb(255, 190, 246);
 }
+
+ul li{
+    border-bottom: 1px solid black;
+}
