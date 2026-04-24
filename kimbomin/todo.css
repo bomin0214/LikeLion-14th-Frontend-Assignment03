@@ -6,7 +6,18 @@
     height: 100vh;
 }
 
+.input-button {
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+
 .input-button button{
     background: greenyellow;
     border-radius: 5px;
+}
+
+body {
+    background-color: rgb(255, 190, 246);
 }
