@@ -35,3 +35,9 @@ function removeTodo(index){
     todos.splice(index, 1); // 인덱스 1누르면 (1,1)
     renderTodos(); // 화면 갱신
 }
+
+input.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        addTodo();
+    }
+});
